@@ -1,0 +1,942 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Bom Pastor</title>
+
+    <link rel="stylesheet" href="style.css"> <!-- Arquivo CSS -->
+
+    <!-- Conexão com o google para as fontes -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.gstatic.com">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap"> 
+
+    <!--<a href="https://www.flaticon.com/br/icones-gratis/igreja" title="igreja ícones">Igreja ícones criados por Freepik - Flaticon</a> -->
+
+    <link rel="shortcut icon" href="imagens/cruzfavicon.png" type="image/x-icon">  <!-- Ícone para a aba da página -->
+
+    <!-- Adicionar os ícones das redes sociais do instituto -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <!-- Fontawesome CDN Link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+</head>
+<body>
+
+    <!-- MENU -->
+    <header id="inicio">
+        <div class="container">
+            <img src="imagens/logoInstituto2.svg" alt=""> <!-- Colocar a logo do instituto -->
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#projeto">Projetos</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#eventos">Eventos</a>
+            <a href="#estrutura">Estrutura</a>
+        </nav>
+        <a href="#contato" class="button mt-1 mb-1 mx-auto">Contatar</a>
+        </div>
+    </header>
+    <!-- FIM MENU -->
+
+    <main>
+
+        <!-- Apresentação -->
+        <section class="hero-section ">
+            <div class="container row-reverse">
+                <img src="imagens/bompastormodificado.png" alt=""> <!-- Colocar imagem de fundo -->
+                <div>
+                    <h1 class="mt-2">Instituo <span class="text-primary decoration">José Luiz Ferreira</span></h1>
+                    <h2 class="versiculo"> "Que todos tenham vida!" <sub>Jo 10,10</sub></h2>
+                    <p class="mt-2 mb-2">A ONG Instituto José Luiz Ferreira é uma organização social que fica em Barbacena, MG. Entre as atividades da ONG temos <span class="text-primary">promoção Humana e Social</span> e <span class="text-primary"> tratamento da Saúde Mental sem Internação</span>.
+                    </p>
+                    <a href="#sobre" class="button ">Conhecer história</a>
+                </div>
+            </div>
+            
+            <div id="projeto" class="espacamento"></div>
+        </section>
+        <!-- Fim Apresentação -->
+
+        <!-- Projetos -->
+        <section class="courses-section">
+
+            <!-- Cards Projetos Simplificados -->
+            <div class="cards">
+
+                <article class="card">
+                    <div class="card-info">
+                        <img class="logoMaria" src="imagens/logoMariaMaria.png" alt="Ícone de teclas de plano">
+                        <strong>Projeto Maria Maria</strong>
+                        <p>Voltado a mulheres que possuem ou querem desenvolver habilidades manuais para que, comunitariamente, gerem renda. </p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-info">
+                        <img src="imagens/clef.png" alt="Ícone clave de sol">
+                        <strong>Casas Terapêuticas</strong>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi accusantium mollitia doloribus, illo quas deleniti.</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-info">
+                        <img src="imagens/sax.png" alt="Ícone saxofone">
+                        <strong>Convivência e Cultura</strong>
+                        <p>O instituto traz para seus frequentadores um ótimo centro de convivência e cultura, tendo como o lema conviver é arte.</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-info">
+                        <img src="imagens/sabao.png" alt="Ícone bateria">
+                        <strong>Fabricação de Sabão</strong>
+                        <p>Não jogue o óleo usado na pia, traga para o Instituto que reutilizaremos para a fabricação e venda de sabão ecológico.</p>
+                    </div>
+                </article>
+
+            </div>
+            <!-- Fim Cards Projetos Simplificados -->
+
+            <h2 class="text-center">E <span class="text-primary">vários</span> outros!</h2>
+            <a href="#projetos" class="button btn-a mt-2 mx-auto">Conhecer</a>
+            
+            <!-- Especificações de cada projeto -->
+            <div class="pmain-projeto-slide" id="projetos">
+                <div class="pcontainer-slide">
+                    <input type="radio" name="dot-slide" id="one-slide">
+                    <input type="radio" name="dot-slide" id="two-slide">
+                    <input type="radio" name="dot-slide" id="three-slide">
+
+                    <div class="pmain-card-slide">
+                        <div class="pcards-slide">
+                            <div class="pcard-slide"> <!-- Projeto 1 -->
+                                <section class="hero-section projeto-section">  
+
+                                    <div class="container row-reverse  projetoCard">  <!-- Informações Gerais -->
+                                        
+                                        <div class="card-projeto">  
+                                            
+                                            <h1 class="mt-2">Projeto Maria Maria</h1>
+                                            <h2 class="versiculo"> "Sistema de Cooperativismo"</h2>
+                                            <p class="mt-2 mb-2">O projeto Maria Maria, em parceria com o Instituto Bom Pastor,  <span class="text-primary">é voltado a mulheres</span> que possuem ou querem <span class="text-primary">desenvolver habilidades manuais</span> para que, comunitariamente, gerem renda e <span class="text-primary">melhorem sua condição de vida</span> e tem, como um dos objetivos, desenvolver a <span class="text-primary">capacitação técnica de profissionais</span> na área de corte e costura, bem como o desenvolvimento de grupos de trabalho, visando à empregabilidade e geração de renda dos beneficiados.
+                                            </p>
+                    
+                                            <div class="navbar">  <!-- Redes sociais -->
+                                
+                                                <div class="box">
+                                                    <a href="https://www.instagram.com/projetomariamaria1/" target="_blank">
+                                                        <div class="icon">
+                                                            <ion-icon name="logo-instagram"></ion-icon>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                    
+                                                <div class="box">
+                                                    <a href="https://www.facebook.com/institutobompastorbq/?locale=pt_BR" target="_blank">
+                                                        <div class="icon">
+                                                            <ion-icon name="logo-facebook"></ion-icon>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                    
+                                                <div class="box">
+                                                    <div class="icon">
+                                                        <ion-icon name="logo-whatsapp"></ion-icon>
+                                                    </div>  
+                                                </div>
+                    
+                                            </div>  <!-- Fim Redes sociais -->
+                                        
+                                        </div>
+                                        
+                                    </div>  <!-- Fim informações gerais -->
+                                    
+                                    <!-- Galeria de imagens projeto 1 -->
+                                    <div class="pmain-projeto"> 
+                    
+                                        <div class="pcontainer">
+                    
+                                            <input type="radio" name="dot-1" id="one">
+                                            <input type="radio" name="dot-1" id="two">
+                                            <input type="radio" name="dot-1" id="three">
+                    
+                                            <div class="pmain-card">
+                    
+                                                <!-- Grupo 1 de imagens -->    
+                                                <div class="pcards">  
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto1.1.jpg" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                            <img src="imagens/Projeto1.10.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto1.3.jpg" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto1.11.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>  <!-- Fim grupo 1 de imagens -->
+                    
+                                                <!-- Grupo 2 de imagens -->
+                                                <div class="pcards">
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto1.4.jpg" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto1.5.jpg" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto1.13.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div> 
+
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto1.9.jpg" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div> 
+                                                </div> <!-- Fim grupo 2 de imagens -->
+                    
+                                                <div class="pcards">
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto1.2.jpg" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto1.6.jpg" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto1.7.jpg" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div> 
+
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto1.8.jpg" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div> 
+                                                </div> <!-- Fim grupo 3 de imagens -->
+                                            </div>  <!-- FIm pmain -->
+                    
+                                            <!-- Botões para a troca de grupos de imagens -->
+                                            <div class="pbutton">  
+                                                <label for="one" class=" active one"></label>
+                                                <label for="two" class="two"></label>
+                                                <label for="three" class="three"></label>
+                                            </div> <!-- Fim botões par a troca de grupos de imagens -->
+                    
+                                        </div>  <!-- Fim pcontainer -->
+                    
+                                    </div>  <!-- Fim galeria de imagens projeto 1 -->
+                                
+                                </section>  
+                            </div> <!-- Fim Projeto 1 -->
+                        </div>
+
+                        <div class="pcards-slide">
+                            <div class="pcard-slide"> <!-- Projeto 2 -->
+                                <section class="hero-section projeto-section">  
+
+                                    <div class="container row-reverse  projetoCard">  <!-- Informações Gerais -->
+                                        
+                                        <div class="card-projeto">  
+                                            <div class="titulo-card">
+                                            <h1 class="mt-2">Casas Terapêuticas</h1></div>
+                                            <h2 class="versiculo"> "Conviver com Arte"</h2>
+                                            <p class="mt-2 mb-2">O projeto Maria Maria, em parceria com o Instituto Bom Pastor,  <span class="text-primary">é voltado a mulheres</span> que possuem ou querem <span class="text-primary">desenvolver habilidades manuais</span> para que, comunitariamente, gerem renda e <span class="text-primary">melhorem sua condição de vida</span> e tem, como um dos objetivos, desenvolver a <span class="text-primary">capacitação técnica de profissionais</span> na área de corte e costura, bem como o desenvolvimento de grupos de trabalho, visando à empregabilidade e geração de renda dos beneficiados.
+                                            </p>
+                    
+                                            <div class="navbar">  <!-- Redes sociais -->
+                                
+                                                <div class="box">
+                                                    <a href="https://www.instagram.com/projetomariamaria1/" target="_blank">
+                                                        <div class="icon">
+                                                            <ion-icon name="logo-instagram"></ion-icon>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                    
+                                                <div class="box">
+                                                    <a href="https://www.facebook.com/institutobompastorbq/?locale=pt_BR" target="_blank">
+                                                        <div class="icon">
+                                                            <ion-icon name="logo-facebook"></ion-icon>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                    
+                                                <div class="box">
+                                                    <div class="icon">
+                                                        <ion-icon name="logo-whatsapp"></ion-icon>
+                                                    </div>  
+                                                </div>
+                    
+                                            </div>  <!-- Fim Redes sociais -->
+                                        
+                                        </div>
+                                        
+                                    </div>  <!-- Fim informações gerais -->
+                                    
+                                    <!-- Galeria de imagens projeto 1 -->
+                                    <div class="pmain-projeto"> 
+                    
+                                        <div class="pcontainer">
+                    
+                                            <input type="radio" name="dot-2" id="one2">
+                                            <input type="radio" name="dot-2" id="two2">
+                                            <input type="radio" name="dot-2" id="three2">
+                    
+                                            <div class="pmain-card">
+                    
+                                                <!-- Grupo 1 de imagens -->    
+                                                <div class="pcards">  
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto2.1.png" alt="Foto 1 Residências Terapêuticas">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                            <img src="imagens/Projeto2.2.png" alt="Foto 2 Residências Terapêuticas">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto2.3.png" alt="Foto 3 Residências Terapêuticas">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto2.4.png" alt="Foto 4 Residências Terapêuticas">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>  <!-- Fim grupo 1 de imagens -->
+                    
+                                                <!-- Grupo 2 de imagens -->
+                                                <div class="pcards">
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto2.5.png" alt="Foto 5 Residências Terapêuticas">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto2.6.png" alt="Foto 6 Residências Terapêuticas">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto2.7.png" alt="Foto 7 Residências Terapêuticas">
+                                                            </div>
+                                                        </div>
+                                                    </div> 
+
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto2.8.png" alt="Foto 8 Residências Terapêuticas">
+                                                            </div>
+                                                        </div>
+                                                    </div> 
+                                                </div> <!-- Fim grupo 2 de imagens -->
+                    
+                                                <div class="pcards">
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto2.9.png" alt="Foto 9 Residências Terapêuticas">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto2.10.png" alt="Foto 10 Residências Terapêuticas">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto2.11.png" alt="Foto 11 Residências Terapêuticas">
+                                                            </div>
+                                                        </div>
+                                                    </div> 
+
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto2.12.jpg" alt="Foto 12 Residências Terapêuticas">
+                                                            </div>
+                                                        </div>
+                                                    </div> 
+                                                </div> <!-- Fim grupo 3 de imagens -->
+                                            </div>  <!-- Fim pmain -->
+                    
+                                            <!-- Botões para a troca de grupos de imagens -->
+                                            <div class="pbutton">  
+                                                <label for="one2" class=" active one2"></label>
+                                                <label for="two2" class="two2"></label>
+                                                <label for="three2" class="three2"></label>
+                                            </div> <!-- Fim botões par a troca de grupos de imagens -->
+                    
+                                        </div>  <!-- Fim pcontainer -->
+                    
+                                    </div>  <!-- Fim galeria de imagens projeto 1 -->
+                                
+                                </section>  
+                            </div> <!-- Fim Projeto 2 -->
+                        </div>
+                        <div class="pcards-slide"> <!-- Projeto 3 -->
+                            <div class="pcard-slide"> 
+                                <section class="hero-section projeto-section">  
+
+                                    <div class="container row-reverse  projetoCard">  <!-- Informações Gerais -->
+                                        
+                                        <div class="card-projeto">  
+                                            
+                                            <h1 class="mt-2">Convivência e Cultura</h1>
+                                            <h2 class="versiculo"> "Conviver com Arte"</h2>
+                                            <p class="mt-2 mb-2">Oferta de oficinas de arte e cultura no horário de <span class="text-primary">13h às 17h</span>, para pessoas da comunidade e encaminhadas dos serviços de saúde mental do município. As atividades objetivam a melhoria do bem-estar psicossocial, produzindo, criando e estabelecendo relações com a comunidade e desenvolvendo momentos de integração, conhecimento, sociabilidade, inclusão, descontração e alegria, de forma a fortalecer a autoestima e proporcionar a melhoria da qualidade de vida do usuário do serviço.
+
+                                            </p>
+                    
+                                            <div class="navbar">  <!-- Redes sociais -->
+                                                <p><span class="text-primary">(32) 3052-5710</span></p>
+                    
+                                            </div>  <!-- Fim Redes sociais -->
+                                        
+                                        </div>
+                                        
+                                    </div>  <!-- Fim informações gerais -->
+                                    
+                                    <!-- Galeria de imagens projeto 1 -->
+                                    <div class="pmain-projeto"> 
+                    
+                                        <div class="pcontainer">
+                    
+                                            <input type="radio" name="dot-3" id="one3">
+                                            <input type="radio" name="dot-3" id="two3">
+                                            <input type="radio" name="dot-3" id="three3">
+                    
+                                            <div class="pmain-card">
+                    
+                                                <!-- Grupo 1 de imagens -->    
+                                                <div class="pcards">  
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto3.1.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                            <img src="imagens/Projeto3.2.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto3.3.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto3.4.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>  <!-- Fim grupo 1 de imagens -->
+                    
+                                                <!-- Grupo 2 de imagens -->
+                                                <div class="pcards">
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto3.5.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto3.6.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto3.7.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div> 
+
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto3.8.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div> 
+                                                </div> <!-- Fim grupo 2 de imagens -->
+                    
+                                                <div class="pcards">
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto3.9.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto3.10.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto3.11.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div> 
+
+                                                    <div class="pcard">
+                                                        <div class="pcontent-projeto">
+                                                            <div class="pimg-projeto">
+                                                                <img src="imagens/Projeto3.12.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div> 
+                                                </div> <!-- Fim grupo 3 de imagens -->
+                                            </div>  <!-- FIm pmain -->
+                    
+                                            <!-- Botões para a troca de grupos de imagens -->
+                                            <div class="pbutton">  
+                                                <label for="one3" class=" active one3"></label>
+                                                <label for="two3" class="two3"></label>
+                                                <label for="three3" class="three3"></label>
+                                            </div> <!-- Fim botões par a troca de grupos de imagens -->
+                    
+                                        </div>  <!-- Fim pcontainer -->
+                    
+                                    </div>  <!-- Fim galeria de imagens projeto 1 -->
+                                
+                                </section>  
+                            </div> <!-- Fim Projeto 3 -->
+                        </div>
+
+                        
+                    </div>
+
+                    <!-- Botões para a troca de grupos de imagens -->
+                    <div class="pbutton-slide">  
+                        <label for="one-slide" class=" active one-slide"></label>
+                        <label for="two-slide" class="two-slide"></label>
+                        <label for="three-slide" class="three-slide"></label>
+                    </div> <!-- Fim botões par a troca de grupos de imagens -->
+
+                </div>  <!-- Fim slides -->
+
+            </div> <!-- Fim Especificações de cada projeto -->
+
+        </section>
+        <!-- Fim Projetos -->
+
+        <section class="hero-section sobre" id="sobre">
+            <div class="container row-reverse">
+                <img class="imagemSobre" src="imagens/sobre1.1.jpg" alt="">
+                <div>
+                    <h1 class="mt-2">Sobre<span class="text-primary decoration">Sua história</span></h1>
+                    <h2 class="versiculo"> "Instituto Bom Pastor"</h2>
+                    <p class="mt-2 mb-2">Fundado pela Congregação do Bom Pastor, com ajuda do Senhor Sabino, em <span class="text-primary">18 de janeiro de 1948</span>, o Instituto desenvolveu por muitos anos um trabalho social, abrigando em regime de internato, meninas a partir de cinco anos de idade. Em 21 de fevereiro de 2002, por decisão da Assembleia Extraordinária, ele passou a ser <span class="text-primary">gerido pela Paróquia do Bom Pastor de Barbacena</span>. <br>
+                    A instituição firmou com a Prefeitura Municipal de Barbacena um convênio, através do qual realiza o <span class="text-primary">atendimento de egressos de hospitais psiquiátricos</span> da cidade, de acordo com a política pública da reforma psiquiátrica brasileira, devolvendo-lhes uma vida normal e digna e lhes proporcionando ressocialização. Trata-se de um trabalho reconhecido pelo Ministério da Saúde, que estabeleceu o projeto em Barbacena como referência nacional, tornando-se polo de capacitação para vários estados brasileiros.
+                    </p>
+                    <a href="#" class="buttonS ">Conhecer Estrutura</a>
+                </div>
+            </div>
+            
+            <div id="projeto" class="espacamento"></div>
+        </section>
+        <div class="hero-section-eventos" id="eventos">
+        <h1 class="mt-2">Eventos <span class="text-primary decoration">Instituto</span></h1>
+        <h2 class="versiculo"><sub>Para acessar nossos outros eventos procure nossas redes sociais</sub></h2>
+        <div class="pmain">
+           
+            
+            <div class="containerEventos">
+                <input type="radio" name="dotEventos" id="oneEventos">
+                <input type="radio" name="dotEventos" id="twoEventos">
+                <div class="main-cardEventos">
+                  <div class="cardsEventos">
+                    <div class="cardEventos">
+                     <div class="contentEventos">
+                       <div class="imgEventos">
+                        <img src="imagens/eventos1.2.png" alt="">
+                       </div>
+                       <div class="detailsEventos">
+                        <div class="descEvento">
+                         <div class="nameEventos">1ª Pré Conferência Municipal de Assistência Social em preparação pra a 14ª Conferência Municipal de Assistência Social</div>
+                        </div>
+                        <div class="dataEvento">
+                         <div class="jobEventos">02/06/2023</div>
+                        </div>
+                       </div>
+                     </div>
+                    </div>
+                    <div class="cardEventos">
+                     <div class="contentEventos">
+                       <div class="imgEventos">
+                        <img src="imagens/eventos1.3.png" alt="">
+                       </div>
+                       <div class="detailsEventos">
+                        <div class="descEvento">
+                         <div class="nameEventos">Capacitação das equipes das Residências Terapêuticas</div>
+                        </div>
+                        <div class="dataEvento">
+                         <div class="jobEventos">16/05/2023</div>
+                        </div>
+                       </div>
+                     </div>
+                    </div>
+                    <div class="cardEventos">
+                        <div class="contentEventos">
+                          <div class="imgEventos">
+                            <img src="imagens/eventos1.4.png" alt="">
+                          </div>
+                          <div class="detailsEventos">
+                            <div class="descEvento">
+                            <div class="nameEventos">E o carnaval dessa turma feliz e animada? Foi só alegria!!</div>
+                        </div>
+                        <div class="dataEvento">
+                            <div class="jobEventos">10/03/2023</div>
+                        </div>
+                          </div>
+                        </div>
+                       </div>
+                  </div>
+                  <div class="cardsEventos">
+                    
+                    <div class="cardEventos">
+                        <div class="contentEventos">
+                          <div class="imgEventos">
+                           <img src="imagens/eventos1.1.png" alt="">
+                          </div>
+                          <div class="detailsEventos">
+                            <div class="descEvento">
+                            <div class="nameEventos">Pe Luizmar Rocha da Silva toma posse como Presidente do Instituto</div>
+                        </div>
+                        <div class="dataEvento">
+                            <div class="jobEventos">07/02/2020</div>
+                        </div>
+                          </div>
+                        </div>
+                       </div>
+                    <div class="cardEventos">
+                     <div class="contentEventos">
+                       <div class="imgEventos">
+                         <img src="imagens/eventos1.5.png" alt="">
+                       </div>
+                       <div class="detailsEventos">
+                        <div class="descEvento">
+                         <div class="nameEventos">Reencontro com os usuários do Centro de Convivência</div>
+                        </div>
+                        <div class="dataEvento">
+                         <div class="jobEventos">07/04/2022</div>
+                        </div>
+                       </div>
+                     </div>
+                    </div>
+                    <div class="cardEventos">
+                     <div class="contentEventos">
+                       <div class="imgEventos">
+                         <img src="imagens/eventos1.6.jpg" alt="">
+                       </div>
+                       <div class="detailsEventos">
+                        <div class="descEvento">
+                            <div class="nameEventos">NOVEMBRO AZUL - trabalho de conscientização sobre a saúde do homem no Instituto Bom Pastor com a equipe do PSF do Carmo</div>
+                        </div>
+                        <div class="dataEvento">
+                         <div class="jobEventos">30/11/2021</div>
+                        </div>
+                       </div>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="buttonEventos">
+                  <label for="oneEventos" class=" active one"></label>
+                  <label for="twoEventos" class="two"></label>
+                </div>
+              </div>
+              </div>
+            </div>
+
+            <div class="estrutura-section">
+                <h1 class="mt-2">Estrutura <span class="text-primary decoration">Instituto</span></h1>
+                <!-- Galeria de imagens projeto 1 -->
+                <div class="pmain-projeto"> 
+                    
+                    <div class="pcontainer">
+
+                        <input type="radio" name="dot-e" id="oneE">
+                        <input type="radio" name="dot-e" id="twoE">
+                        <input type="radio" name="dot-e" id="threeE">
+
+                        <div class="pmain-card">
+
+                            <!-- Grupo 1 de imagens -->    
+                            <div class="pcards">  
+                                <div class="pcard">
+                                    <div class="pcontent-projeto">
+                                        <div class="pimg-projeto">
+                                            <img src="imagens/Projeto3.1.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="pcard">
+                                    <div class="pcontent-projeto">
+                                        <div class="pimg-projeto">
+                                        <img src="imagens/Projeto3.2.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="pcard">
+                                    <div class="pcontent-projeto">
+                                        <div class="pimg-projeto">
+                                            <img src="imagens/Projeto3.3.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="pcard">
+                                    <div class="pcontent-projeto">
+                                        <div class="pimg-projeto">
+                                            <img src="imagens/Projeto3.4.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>  <!-- Fim grupo 1 de imagens -->
+
+                            <!-- Grupo 2 de imagens -->
+                            <div class="pcards">
+                                <div class="pcard">
+                                    <div class="pcontent-projeto">
+                                        <div class="pimg-projeto">
+                                            <img src="imagens/Projeto3.5.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="pcard">
+                                    <div class="pcontent-projeto">
+                                        <div class="pimg-projeto">
+                                            <img src="imagens/Projeto3.6.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="pcard">
+                                    <div class="pcontent-projeto">
+                                        <div class="pimg-projeto">
+                                            <img src="imagens/Projeto3.7.png" alt="">
+                                        </div>
+                                    </div>
+                                </div> 
+
+                                <div class="pcard">
+                                    <div class="pcontent-projeto">
+                                        <div class="pimg-projeto">
+                                            <img src="imagens/Projeto3.8.png" alt="">
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div> <!-- Fim grupo 2 de imagens -->
+
+                            <div class="pcards">
+                                <div class="pcard">
+                                    <div class="pcontent-projeto">
+                                        <div class="pimg-projeto">
+                                            <img src="imagens/Projeto3.9.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="pcard">
+                                    <div class="pcontent-projeto">
+                                        <div class="pimg-projeto">
+                                            <img src="imagens/Projeto3.10.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="pcard">
+                                    <div class="pcontent-projeto">
+                                        <div class="pimg-projeto">
+                                            <img src="imagens/Projeto3.11.png" alt="">
+                                        </div>
+                                    </div>
+                                </div> 
+
+                                <div class="pcard">
+                                    <div class="pcontent-projeto">
+                                        <div class="pimg-projeto">
+                                            <img src="imagens/Projeto3.12.png" alt="">
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div> <!-- Fim grupo 3 de imagens -->
+                        </div>  <!-- FIm pmain -->
+
+                        <!-- Botões para a troca de grupos de imagens -->
+                        <div class="pbutton">  
+                            <label for="oneE" class=" active oneE"></label>
+                            <label for="twoE" class="twoE"></label>
+                            <label for="threeE" class="threeE"></label>
+                        </div> <!-- Fim botões par a troca de grupos de imagens -->
+
+                    </div>  <!-- Fim pcontainer -->
+
+                </div>  <!-- Fim galeria de imagens projeto 1 -->
+            </div>
+    </main>
+
+
+    <!-- Início rodapé -->
+    <footer id="contato">
+        <div class="container">
+            <div class="about-column">
+                <img src="imagens/logoInstituto.png" alt="Logo" class="mt-1 mb-1">
+                <div class="navbar">
+
+                    <div class="box">
+                        <a href="https://www.instagram.com/institutojoseluizferreira/" target="_blank">
+                            <div class="icon">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="box">
+                        <a href="https://www.facebook.com/institutobompastorbq/?locale=pt_BR" target="_blank">
+                            <div class="icon">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="box">
+                        <div class="icon">
+                            <ion-icon name="logo-whatsapp"></ion-icon>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            <nav class="mb-2">
+                <a href="#inicio">Início</a>
+                <a href="#projeto">Projetos</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#eventos">Eventos</a>
+                <a href="#estrutura">Estrutura</a>
+            </nav>
+            <form class="newsletter-form">
+                <label for="email" class="mb-1">Entre em contato conosco através do nosso e-mail:</label>
+                <input type="text" disabled name="email" id="email" value="adm@institutobpastor.org.br">
+                
+            </form>
+            
+        </div>
+        
+        
+
+    </footer>
+</body>
+</html>
