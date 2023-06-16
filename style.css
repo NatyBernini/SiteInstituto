@@ -988,22 +988,11 @@ input[type="radio"]{
 
     .pmain-card-slide .pcards-slide .pcard-slide .card-projeto p{
       /* margin: 20px 0 10px 0; */
-      font-size: 0.8rem;
+      font-size: 0.5rem;
     }
   }
 
-  @media (max-width: 460px) {
-
-    .pmain-card-slide .pcards-slide .pcard-slide .card-projeto {
-      /* margin: 20px 0 10px 0; */
-      width: 100%;
-    }
-
-    .pmain-card-slide .pcards-slide .pcard-slide  {
-      /* margin: 20px 0 10px 0; */
-      width: 70vw;
-    }
-  }
+  
 /* Fim card */
 
 
