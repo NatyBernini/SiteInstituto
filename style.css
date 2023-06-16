@@ -11,7 +11,7 @@
 :root {
     --C_PBlue:  #3a9cbd;
     --C_SBlue:  #74ceec;
-    --C_Fundo: #d0e8eb;
+    --C_Fundo: #fff;
     --C_Black: #000;
     --C_White: #fff;
 }
@@ -988,7 +988,7 @@ input[type="radio"]{
 
     .pmain-card-slide .pcards-slide .pcard-slide .card-projeto p{
       /* margin: 20px 0 10px 0; */
-      font-size: 0.5rem;
+      font-size: 1.0rem;
     }
   }
 
